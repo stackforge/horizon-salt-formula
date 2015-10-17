@@ -1,8 +1,0 @@
-{% set horizon=salt["grains.filter_by"]({
-  "Debian":{
-    "pkgs": ["openstack-dashboard", "apache2"],
-    "services": ["apache2"]
-  }
-}) %}
-{#- vim:ft=sls
--#}
